@@ -1,0 +1,49 @@
+.control-timer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.control-timer div{
+  border-radius: 50%;
+  padding: 2px;
+}
+.control-timer button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.button-cancel-container{
+  border: 2px solid rgb(28,28,28);
+  cursor: pointer;
+}
+.button-cancel{
+  background-color: rgb(28,28,28);
+  color: rgb(90, 90, 94);
+  cursor: pointer
+}
+.button-cancel:active {
+  background-color: rgb(15, 15, 15);
+  color:rgb(81, 81, 84);
+}
+.button-start-container{
+  border: 2px solid rgb(18, 41, 20);
+}
+.button-start{
+  background-color: rgb(18, 41, 20);
+  color: rgb(103, 206, 103);
+  cursor: pointer;
+}
+.button-start:active {
+  background-color: rgb(8, 22, 10);
+}
+.button-pause-container{
+  border: 2px solid rgb(52, 31, 4);
+}
+.button-pause{
+  background-color: rgb(52, 31, 4);
+  color: rgb(227, 171, 50);
+  cursor: pointer;
+}
+.button-pause:active {
+  background-color: rgb(25, 17, 2);
+}

@@ -1,0 +1,14 @@
+.notifications-timer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(28,28,28);
+  margin: 30px 13px 10px 13px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+.lable{
+  color: white;
+}
+.name-signal{
+  color: rgb(142, 142, 142);
+}

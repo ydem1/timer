@@ -1,0 +1,54 @@
+
+.container-timer{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.score-timer{
+  color: white;
+  font-size: 50px;
+}
+.input-timer{
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgb(21, 21, 22);
+  border-radius: 5px;
+  padding: 5px 20px 5px 0px;
+}
+.input-timer input{
+  width: 30px;
+  margin:  0px 5px;
+  background-color: rgb(21, 21, 22);
+  color: white;
+  border: none;
+  direction: rtl;/*move the slider to the left side*/
+}
+.alarm-timer{
+  color: rgb(142, 142, 142);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alarm-timer p{
+  padding-left: 5px;
+}
+
+.container-countdown{
+  display: none;
+  position: absolute;
+}
+.base {
+  fill: none;
+  stroke: rgba(38, 38, 40, 1);
+  stroke-width: 2;
+}
+.progress {
+  fill: none;
+  stroke: rgba(241, 163, 59, 1);
+  stroke-width: 2;
+  transition: stroke-dasharray 1s;
+}

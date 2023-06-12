@@ -1,0 +1,14 @@
+header{
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.time{
+  padding-left: 24px;
+  color: rgb(142, 142, 142);
+}
+.icons-panel{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80px;
+}
