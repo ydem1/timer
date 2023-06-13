@@ -15,7 +15,7 @@ function setTime(){
 function alarmTimer(){
   const [hoursAlarm, minutesAlarm] = getTimeAlarm();
   const alarmTimer = ` 
-    <img src="img/alarm-status-icon.png" alt="">
+    <img src="./assets/icons/alarm-status-icon.png" alt="">
     <p>${hoursAlarm}:${formTimer(minutesAlarm)}</p>
   `;
   return alarmTimer;
